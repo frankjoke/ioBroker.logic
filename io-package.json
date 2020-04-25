@@ -1,0 +1,80 @@
+{
+	"common": {
+		"name": "logic",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Logic",
+		"titleLang": {
+			"en": "Logic",
+			"de": "Logik",
+			"ru": "логика",
+			"pt": "Lógica",
+			"nl": "Logica",
+			"fr": "Logique",
+			"it": "Logica",
+			"es": "Lógica",
+			"pl": "Logika",
+			"zh-cn": "逻辑"
+		},
+		"desc": {
+			"en": "Logic, state machine, pid conbtroller and other actions",
+			"de": "Logik, Zustandsmaschine, PID-Controller und andere Aktionen",
+			"ru": "Логика, конечный автомат, pid conbtroller и другие действия",
+			"pt": "Lógica, máquina de estado, controlador pid e outras ações",
+			"nl": "Logica, staatsmachine, pid-conbtroller en andere acties",
+			"fr": "Logique, machine d'état, contrôleur pid et autres actions",
+			"it": "Logica, macchina a stati, pid conbtroller e altre azioni",
+			"es": "Lógica, máquina de estado, controlador pid y otras acciones.",
+			"pl": "Logika, automat stanów, konwerter pid i inne akcje",
+			"zh-cn": "逻辑，状态机，pid conbtroller和其他操作"
+		},
+		"authors": [
+			"frankjoke <frankjoke@hotmail.com>"
+		],
+		"keywords": [
+			"logic",
+			"state machine",
+			"pid",
+			"script",
+			"programming"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "logic.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/frankjoke/ioBroker.logic/master/admin/logic.png",
+		"readme": "https://github.com/frankjoke/ioBroker.logic/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "logic",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "push",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=1.4.2"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
