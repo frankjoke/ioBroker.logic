@@ -53,7 +53,7 @@
 		],
 		"license": "MIT",
 		"platform": "Javascript/Node.js",
-		"main": "main.js",
+		"main": "logic.js",
 		"icon": "logic.png",
 		"enabled": true,
 		"extIcon": "https://raw.githubusercontent.com/frankjoke/ioBroker.logic/master/admin/logic.png",
