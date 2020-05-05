@@ -44,12 +44,13 @@
   },
   "main": "logic.js",
   "scripts": {
+    "copy": "copysc.sh --inspect-brk",
     "test:js": "mocha --opts test/mocha.custom.opts",
     "test:package": "mocha test/package --exit",
     "test:unit": "mocha test/unit --exit",
     "test:integration": "mocha test/integration --exit",
     "test": "npm run test:js && npm run test:package",
-    "lint": "eslint"
+    "lint": "eslint *.js"
   },
   "bugs": {
     "url": "https://github.com/frankjoke/ioBroker.logic/issues"
